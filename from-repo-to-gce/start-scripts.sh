@@ -38,5 +38,7 @@ yarn install
 # install firebase, pm2, hexo
 npm install -g firebase-tools pm2@latest hexo-cli
 
-# run app
-pm2 start npm --name "app" -- run "pm2-start"
+# viết thêm vào đây các thư viện cần cài nếu muốn.
+
+# run app, ex:
+#pm2 start npm --name "app" -- run "pm2-start"
