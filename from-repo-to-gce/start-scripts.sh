@@ -2,7 +2,7 @@ set -v
 
 # Talk to the metadata server to get the project id
 PROJECTID=$(curl -s "http://metadata.google.internal/computeMetadata/v1/project/project-id" -H "Metadata-Flavor: Google")
-REPOSITORY="..." # your repo name
+REPOSITORY="..." # TODO: your repo name
 APP_DIR="/opt/app/${REPOSITORY}"
 
 # Install logging monitor. The monitor will automatically pick up logs sent to
